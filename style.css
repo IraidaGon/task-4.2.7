@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Roboto;
+  src: url("Roboto.ttf");
+}
+
+body {
+  background: #c4c4c4;
+}
+
+input {
+  border: none;
+  font-size: 48px;
+  line-height: 56px;
+  width: 100%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.dropdown {
+  margin: 62px 84px 0px 77px;
+  width: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: #000;
+  box-sizing: border-box;
+}
+
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 326px;
+}
+
+.dropdown-content {
+  width: 100%;
+  font-size: 30px;
+  line-height: 44px;
+  border: 2px solid #000;
+  border-top: none;
+  box-sizing: border-box;
+  background-color: #e3e3e3;
+}
+
+.dropdown-content:hover {
+  background-color: #65cdf9;
+  cursor: default;
+}
+
+.chosens {
+  display: flex;
+  flex-direction: column;
+  top: 326px;
+  width: 503px;
+}
+
+.chosen {
+  display: flex;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 24px;
+  padding: 8px 16px;
+  line-height: 28px;
+  border: 1px solid #000;
+  background-color: #e27beb;
+}
+
+.btn-close {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-repeat: no-repeat;
+  background-image: url("Vector 7.svg"), url("Vector 8.svg");
+  background-color: transparent;
+  background-size: contain;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 42px;
+  height: 38.5px;
+  right: 17px;
+}
